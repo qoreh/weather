@@ -1,0 +1,26 @@
+[2023-11-23 13:04:43:233][main] INFO  z.weather.WeatherApplication - Starting WeatherApplication using Java 17.0.9 with PID 5170 (/Users/sukyungyang/Desktop/ZB_JAVA/Spring/weather/build/classes/java/main started by sukyungyang in /Users/sukyungyang/Desktop/ZB_JAVA/Spring/weather)
+[2023-11-23 13:04:43:234][main] INFO  z.weather.WeatherApplication - No active profile set, falling back to 1 default profile: "default"
+[2023-11-23 13:04:43:449][main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-11-23 13:04:43:471][main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 3 JPA repository interfaces.
+[2023-11-23 13:04:44:647][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[2023-11-23 13:04:44:650][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-11-23 13:04:44:651][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-11-23 13:04:44:651][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+[2023-11-23 13:04:44:702][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-11-23 13:04:44:702][main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 453 ms
+[2023-11-23 13:04:44:756][main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2023-11-23 13:04:44:900][main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c7279a5
+[2023-11-23 13:04:44:901][main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2023-11-23 13:04:44:922][main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-11-23 13:04:44:942][main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-11-23 13:04:44:1056][main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[2023-11-23 13:04:44:1057][main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+[2023-11-23 13:04:44:1302][main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-11-23 13:04:44:1305][main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-23 13:04:44:1451][main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-11-23 13:04:44:1578][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[2023-11-23 13:04:44:1586][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[2023-11-23 13:04:44:1591][main] INFO  z.weather.WeatherApplication - Started WeatherApplication in 1.542 seconds (process running for 1.788)
+[2023-11-23 13:06:08:84721][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-23 13:06:08:84723][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2023-11-23 13:06:08:84726][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
