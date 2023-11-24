@@ -28,8 +28,8 @@ public class DiaryController {
         diaryService.createDiary(date, text);
     }
 
-    @ApiOperation(value = "선택한 날짜의 모든 일기 데이터를 가져옵니다.")
 
+    @ApiOperation(value = "선택한 날짜의 모든 일기 데이터를 가져옵니다.")
     @GetMapping("/read/diary")
     List<Diary> readDiary(
             @RequestParam
